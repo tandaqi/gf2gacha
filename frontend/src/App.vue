@@ -197,6 +197,7 @@ onMounted(async () => {
   GetCommunityExchangeList().then(result => {
     exchangeList.value = result
   })
+  handleCommunityTasks()
 })
 
 </script>
